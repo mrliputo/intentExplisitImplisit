@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belajar menggunakan Intent"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cobainten1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pindah Activity" />
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/sendmsgextra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With Extra" />
+
+        <EditText
+            android:id="@+id/inputbundle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/inputbundle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/sendmsgbundle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With bundle" />
+        <Button
+            android:id="@+id/goURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to URL" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
