@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Feb 24 00:47:12 ICT 2019
+0.baseType=DIRECTORY
+0.base=F\:\\Project\\MyApplication\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1
